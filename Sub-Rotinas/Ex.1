@@ -1,0 +1,28 @@
+algoritmo "01 - Sub-Rotinas"
+
+procedimento verificacao(numero : inteiro):
+var
+
+inicio
+    se numero >= 0 entao
+        se numero <= 10 entao
+            escreval("O número", numero, " está entre 0 e 10")
+        senao
+            escreval(O número", numero, " é maior que 10")
+        fimse
+    senao
+        escreval("O número", numero, " é negativo)
+    fimse
+fimprocedimento
+
+var
+
+    num : inteiro
+
+inicio
+
+    escreval("Informe um número inteiro: ")
+    leia(num)
+    verificacao(num)
+
+fimalgoritmo
