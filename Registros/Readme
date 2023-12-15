@@ -1,0 +1,20 @@
+Registros - Exercícios
+
+1) Crie um registro chamado Carro, que possui uma variável chamada ano, do tipo inteiro, uma variável chamada
+quilometragem, também do tipo inteiro, e uma variável do tipo caractere para armazenar o modelo:
+  a. Crie um vetor do registro chamado Carro
+  b. No registro do 1º elemento do vetor, armazene os seguintes atributos do carro:
+    i. Ano: 2013
+    ii. Quilometragem: 50000
+    iii. Modelo: Prisma
+   
+2) Dado que para cada aluno de uma turma de 10 alunos se tenha: número de matrícula, nome e média final, faça
+um algoritmo que:
+Imprime o nome e a média final de cada aluno;
+Imprime a média geral da turma;
+
+3) Crie uma agenda de contatos, ou seja, um registro chamado Contato, contendo nome e telefone. Crie um
+algoritmo que permite cadastrar, remover e buscar contatos. A busca deve ser baseada no nome da pessoa. Para
+implementar essa coleção de registros, utilize um vetor de 50 posições (capacidade máxima de contatos). Questão
+a se perguntar antes de implementar: Como saber se determinado contato do vetor está livre pra receber um novo
+contato?
