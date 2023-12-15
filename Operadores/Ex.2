@@ -1,0 +1,18 @@
+algoritmo "02 - Operadores"
+
+var
+    distancia, Icombustivel, Fcombustivel : real
+    resultado : real
+
+inicio
+    escreval("Informe a distância percorrida(Km): ")
+    leia(distancia)
+    escreval("Informe a quantidade inicial de combustivel(L): ")
+    leia(Icombustivel)
+    escreval("Informe a quantidade final de combustivel(L): ")
+    leia(Fcombustivel)
+
+    resultado <- distancia / (Icombustivel - Fcombustivel)
+    escreval("O consumo médio de gasolina é: ", resultado, "Km/L")
+
+fimalgoritmo
