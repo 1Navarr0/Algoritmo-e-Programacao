@@ -1,0 +1,29 @@
+algoritmo "01 - Decisão
+
+var
+    nome, resultado : caractere
+    nota1, nota2, nota3, media : real
+
+inicio
+    escreval("Informe seu nome: ")
+    leia(nome)
+    escreval("Informe sua 1a nota: ")
+    leia(nota1)
+    escreval("Informe sua 2a nota: ")
+    leia(nota2)
+    escreval("Informe sua 3a nota: ")
+    leia(nota3)
+
+    media <- (nota1 + nota2 + nota3) / 3
+    se media >= 7 entao
+        resultado <- "Aprovado"
+    senao
+        se media <= 5 entao
+            resultado <- "Reprovado"
+        senao
+            resultado <- "em recuperação"
+        fimse
+    fimse
+    escreval("O aluno ", nome, " está ", resultado)
+
+fimalgoritmo
