@@ -1,0 +1,23 @@
+Aula 05 - Comandos de Decisão
+
+
+1) Escrever um algoritmo que leia o nome e as três notas obtidas por um aluno durante o semestre. Calcular a sua média
+(aritmética), informar o nome e sua menção aprovado (media >= 7), Reprovado (media <= 5) e Recuperação (media
+entre 5.1 a 6.9).
+
+2) Escrever um algoritmo que leia dois valores inteiros distintos e informe qual é o maior.
+   
+3) Elabore um algoritmo que leia do teclado o sexo de uma pessoa. Se o sexo digitado for M ou F, escrever na tela “Sexo
+válido!”. Caso contrário, informar “Sexo inválido!”.
+
+4) Elabore um algoritmo que leia dois números inteiros e mostre o resultado da diferença do maior valor pelo menor.
+   
+5) Elabore um algoritmo a ler 4 notas de um aluno (de 0 a 10). Após calcular a média das notas, apresentar a mensagem
+“Aprovada” se o aluno tiver obtido média maior ou igual a 6, caso contrário, apresentar “Reprovado”.
+
+6) Altere o algoritmo anterior para que seja lido do teclado, além das notas, o sexo do aluno (M ou F). Se for masculino, o
+resultado deverá ser precedido de “Caro aluno, seu resultado é: “. Se for feminino, o resultado deverá ser precedido de
+“Cara aluna, seu resultado é: “.
+
+7) Elabore um algoritmo que lê um número inteiro e informa se o número lido é negativo ou positivo. O valor zero é
+considerado positivo.
