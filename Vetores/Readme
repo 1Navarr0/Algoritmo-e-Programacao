@@ -1,0 +1,16 @@
+Vetores - Exercícios
+
+1) Fazer um algoritmo que leia um vetor de 10 posições de
+números inteiros e mostre somente os positivos não-nulos
+(maiores que zero). Obs: o vetor não deve conter espaços
+(posições) vazios.
+
+2) Escreva um algoritmo que leia um vetor de 15 elementos
+inteiros. Encontre e imprima na tela o menor elemento,
+assim como sua posição no vetor.
+
+3) Escreva um algoritmo que leia um vetor inteiro de 20
+posições (vetor 1). Verifique os valores do vetor 1 e
+modifique um segundo vetor (vetor 2), atribuindo o valor “1”
+ao vetor 2 quando houver um valor nulo no primeiro vetor.
+Ao fim, imprima os dois vetores.
