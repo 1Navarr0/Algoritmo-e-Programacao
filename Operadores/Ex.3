@@ -1,0 +1,20 @@
+Algoritmo "03 - Operadores"
+
+Var
+    nome : caractere
+    salarioFixo, salarioFinal : real
+    vendas : real
+
+Inicio
+
+    escreval("Qual seu nome: ")
+    leia(nome)
+    escreval("Informe seu salário fixo: ")
+    leia(salarioFixo)
+    escreval("Informe a quantidade total de venda no mês(Em dinheiro: ")
+    leia(vendas)
+
+    salarioFinal <- salarioFixo + (vendas * (15 / 100))
+    escreval("O salário total do ", nome, " no final do mês será: R$", salarioFinal)
+
+fimalgoritmo
