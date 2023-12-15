@@ -1,0 +1,27 @@
+algoritmo "04 - Decisão"
+
+var
+
+    num1, num2 : inteiro
+    diferenca : inteiro
+
+inicio
+    escreval("Informe um número inteiro: ")
+    leia(num1)
+    escreval("Informe um outro número inteiro: ")
+    leia(num2)
+    
+    se num1 > num2 entao
+        diferenca <- num1 - num2
+        escreval("A diferença entre o maior número e o menor é:", diferenca)
+    senao
+        se num2 > num1 entao
+            diferenca <- num2 - num1
+            escreval("A diferença entre o maior número e o menor é:", diferenca)
+        senao
+            escreval("Os dois números são iguais")
+        fimse
+    fimse
+fimalgoritmo
+   
+   
