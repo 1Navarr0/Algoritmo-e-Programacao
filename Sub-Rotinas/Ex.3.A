@@ -1,0 +1,33 @@
+algoritmo "03 - Sub-Rotinas"
+
+
+procedimento fatorial(numero : inteiro):
+var
+contador : inteiro
+total : inteiro
+inicio
+    contador <- numero - 1
+    total <- numero
+    
+    repita
+        total <- contador * total
+        contador <- contador - 1
+    
+    até contador = 1
+    escreval("O fatorial de", numero, " é:", total)
+        
+fimprocedimento
+
+var
+
+num : inteiro
+
+inicio
+
+
+    escreval("Informe um número inteiro: ")
+    leia(num)
+    fatorial(num)
+    
+fimalgoritmo
+
