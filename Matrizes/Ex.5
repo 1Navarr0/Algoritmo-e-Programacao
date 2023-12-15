@@ -1,0 +1,34 @@
+algoritmo "semnome"
+
+var
+
+mat, mataum: vetor[1..4,1..4] de inteiro
+l, c : inteiro
+valor : inteiro
+
+inicio
+
+para l de 1 ate 4 faca
+    para c de 1 ate 4 faca
+        escreval("Informe um número para a matriz: ")
+        leia(mat[l,c])
+    fimpara
+fimpara
+
+escreval("Informe um número para multiplicar a matriz")
+leia(valor)
+
+para l de 1 ate 4 faca
+    para c de 1 ate 4 faca
+        mataum[l,c] <- mat[l,c] * valor
+    fimpara
+fimpara
+
+para l de 1 ate 4 faca
+     escreval("")
+    para c de 1 ate 4 faca
+        escreva(mataum[l,c], " ")
+    fimpara
+fimpara
+
+fimalgoritmo
