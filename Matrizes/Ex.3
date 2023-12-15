@@ -1,0 +1,36 @@
+algoritmo "semnome"
+
+var
+
+   mat: vetor[1..4,1..3] de caractere
+   l, c : inteiro
+
+inicio
+
+   para l de 1 ate 4 faca
+      para c de 1 ate 3 faca
+         se c = 1 entao
+            escreval("Informe seu nome: ")
+            leia(mat[l,c])
+         senao
+            se c = 2 entao
+               escreval("Informe seu email: ")
+               leia(mat[l,c])
+            senao
+               se c = 3 entao
+                  escreval("Informe seu telefone: ")
+                  leia(mat[l,c])
+               fimse
+            fimse
+         fimse
+      fimpara
+   fimpara
+
+   para l de 1 ate 4 faca
+      escreval("")
+      para c de 1 ate 3 faca
+         escreva(mat[l,c], " ")
+      fimpara
+   fimpara
+
+fimalgoritmo
