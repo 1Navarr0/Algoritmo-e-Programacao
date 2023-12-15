@@ -1,0 +1,23 @@
+Lista de exercícios
+
+1) Crie e preencha com valores aleatórios de 0 - 99 (randi(100)) uma matriz de tamanho 4x4
+  a) Conte e escreva quantos valores maiores que 50 ela possui.
+  b) Procure e imprima o valor e a localização do elemento com o maior valor.
+  c) Imprima a matriz.
+
+2) Declare uma matriz 5x5
+  a) Utilizando PARA, preencha com o número "1" a diagonal principal e com "0" os demais elementos.
+  b) Imprima a matriz obtida.
+
+3) Crie duas matrizes de tamanho 4x4 com valores aleatórios de 0 - 99. Gere uma terceira matriz chamada SOMA com a soma entre as matriz A e B.
+  a) Imprima as três matrizes.
+
+4) Gerar e imprimir uma matriz 10x10, onde seus elementos são da forma:
+  se (l < c) -> A[l,c] <- 2l + 8;
+  se (l = c) -> A[l,c] <- 7l - 2c + l;
+  se (1 > c) -> A[l,c] <- 4l * 5c + 9;
+
+l é a linha da matriz
+c é a coluna da matriz
+
+
