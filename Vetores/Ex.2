@@ -1,0 +1,26 @@
+algoritmo "semnome"
+
+var
+
+numeros : vetor [1..15] de inteiro
+indice : inteiro
+menor_valor : inteiro
+posicao : inteiro
+
+inicio
+
+para indice de 1 ate 15 faca
+    escreval("Informe um número: ")
+    leia(numeros[indice])
+    se indice = 1 entao
+        menor_valor <- numeros[indice]
+    senao
+        se numeros[indice] < menor_valor entao
+            menor_valor <- numeros[indice]
+            posicao <- indice
+        fimse
+    fimse
+fimpara
+
+escreva("O menor valor informado foi:", menor_valor, " e está na posição:", posicao)
+fimalgoritmo
