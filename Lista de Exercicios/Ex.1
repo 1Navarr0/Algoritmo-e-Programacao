@@ -1,0 +1,35 @@
+algoritmo "semnome"
+
+Var
+
+   mat : vetor[1..4,1..4] de inteiro
+   maior_valor, l, c, cont : inteiro
+   coluna, linha : inteiro
+
+Inicio
+
+   maior_valor <- 0
+   para l de 1 ate 4 faca
+      para c de 1 ate 4 faca
+         mat[l,c] <- randi(100)
+         se mat[l,c] > 50 entao
+            cont <- cont + 1
+         fimse
+         se mat[l,c] > maior_valor entao
+            maior_valor <- mat[l,c]
+            coluna <- c
+            linha <- l
+         fimse
+      fimpara
+   fimpara
+
+   escreval("A quantidade de números maiores que 50 na matriz é:", cont)
+   escreval("O maior número da matriz é:", maior_valor, " e está na linha", linha, " e coluna", coluna)
+   para l de 1 ate 4 faca
+      escreval("")
+      para c de 1 ate 4 faca
+         escreva(mat[l,c], " ")
+      fimpara
+   fimpara
+
+fimalgoritmo
