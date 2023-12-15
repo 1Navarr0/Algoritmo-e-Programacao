@@ -1,0 +1,54 @@
+algoritmo "02 - Sub-Rotinas"
+
+funcao maior(numero1, numero2, numero3 : inteiro): inteiro
+inicio
+    se numero1 > numero2 entao
+        se numero1 > numero3 entao
+            retorne numero1
+        senao
+            retorne numero3
+        fimse
+    senao
+        se numero2 > numero3
+            retorne numero2
+        senao
+            retorne numero3
+        fimse
+    fimse
+fimfuncao
+
+funcao menor(numero1, numero2, numero3 : inteiro): inteiro
+inicio
+    se numero1 < numero2 entao
+        se numero1 < numero3 entao
+            retorne numero1
+        senao
+            retorne numero3
+        fimse
+    senao
+        se numero2 < numero3
+            retorne numero2
+        senao
+            retorne numero3
+        fimse
+    fimse
+fimfuncao
+
+var
+
+num1, num2, num3 : inteiro
+
+inicio
+
+
+    escreval("Informe um número inteiro: ")
+    leia(num1)
+    escreval("Informe outro número inteiro: ")
+    leia(num2)
+    escreval("Informe mais um número inteiro: ")
+    leia(num3)
+    escreval("O maior numéro informado é:", maior(num1, num2, num3))
+    escreval("O menor numéro informado é:", menor(num1, num2, num3))
+
+fimalgoritmo
+
