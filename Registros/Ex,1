@@ -1,0 +1,30 @@
+algoritmo "semnome"
+tipo
+Carro = regitro
+    ano : inteiro
+    quilometragem : inteiro
+    modelo : caracter
+fimregistro
+
+var
+
+i : inteiro
+dados_carro : Carro
+
+inicio
+
+escreval("Informe o ano o carro: ")
+leia(dados_carro.ano)
+escreval("Informe quantos Km o carro já andou: ")
+leia(dados_carro.quilometragem)
+escreval("Informe o modelo do carro: ")
+leia(dados_carro.modelo)
+
+escreval("Ano: ")
+escreval(dados_carro.ano)
+escreval("Quilometros: ")
+escreval(dados_carro.quilometragem)
+escreval("Modelo: ")
+escreval(dados_carro.modelo)
+
+fimalgoritmo
