@@ -1,0 +1,33 @@
+algoritmo "semnome"
+
+tipo
+Aluno = registro
+    matricula : inteiro
+    nome : caracter
+    media_final : real
+fimregistro
+
+var
+
+i : inteiro
+media : real
+alunos : vetor[1..10] de Aluno
+
+inicio
+
+para i de 1 ate 10 faca
+    alunos[i].matricula <- 00000 + i
+    escreval("Informe o nome: ")
+    leia(alunos[i].nome)
+    alunos[i].media_final <- randi(11)
+    media <- media + alunos[i].media_final
+fimpara
+
+media <- media / 10
+para i de 1 ate 10 faca
+    escreval("Nome: ", alunos[i].nome, " || Média Final: ", alunos[i].media_final)
+fimpara
+
+escreval("A média final da turma foi: ", media)
+
+fimalgoritmo
