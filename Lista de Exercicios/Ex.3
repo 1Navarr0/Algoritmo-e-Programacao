@@ -1,0 +1,45 @@
+algoritmo "semnome"
+
+var
+
+   mat1, mat2, soma : vetor[1..4,1..4] de inteiro
+   l, c : inteiro
+
+inicio
+
+   para l de 1 ate 4 faca
+      para c de 1 ate 4 faca
+         mat1[l,c] <- randi(100)
+         mat2[l,c] <- randi(100)
+         soma[l,c] <- mat1[l,c] + mat2[l,c]
+      fimpara
+   fimpara
+   escreval("Matriz 1")
+
+   para l de 1 ate 4 faca
+      escreval("")
+      para c de 1 ate 4 faca
+         escreva(mat1[l,c])
+      fimpara
+   fimpara
+   escreval("")
+   escreval("Matriz 2")
+
+   para l de 1 ate 4 faca
+      escreval("")
+      para c de 1 ate 4 faca
+         escreva(mat2[l,c])
+      fimpara
+   fimpara
+   escreval("")
+   escreval("Soma das matrizes")
+
+   para l de 1 ate 4 faca
+      escreval("")
+      para c de 1 ate 4 faca
+         escreva(soma[l,c])
+      fimpara
+   fimpara
+
+fimalgoritmo
+
