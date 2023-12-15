@@ -1,0 +1,66 @@
+algoritmo "04 - Sub-Rotinas"
+
+procedimento calculadora()
+var
+numero : inteiro
+
+inicio
+    escreval("O que você quer fazer com esses números:")
+    escreval("Digite [1] para somar")
+    escreval("Digite [2] para subtrair")
+    escreval("Digite [3] para multiplicar")
+    escreval("Digite [4] para dividir")
+    leia(numero)
+    se numero = 1 entao
+        escreval("A soma é:", somar(num1, num2))
+    fimse
+    se numero = 2 entao
+        escreval("A subtração é:", subtrair(num1, num2))
+    fimse
+    se numero = 3 entao
+        escreval("A multiplicação é:", multiplicar(num1, num2))
+    fimse
+    se numero = 4 entao
+        escreval("A divisão é:", dividir(num1, num2))
+    fimse
+
+funcao somar(numero1, numero2 : inteiro): inteiro
+
+inicio
+   retorne numero1 + numero2       
+fimfuncao
+
+funcao subtrair(numero1, numero2 : inteiro): inteiro
+
+inicio
+   retorne numero1 - numero2       
+fimfuncao
+
+funcao multiplicar(numero1, numero2 : inteiro): inteiro
+
+inicio
+   retorne numero1 * numero2       
+fimfuncao
+
+funcao dividir(numero1, numero2 : inteiro): real
+
+inicio
+   retorne numero1 / numero2       
+fimfuncao
+
+
+var
+
+num1, num2 : inteiro
+
+inicio
+
+
+    escreval("Informe um número inteiro: ")
+    leia(num1)
+    escreval("Informe outro número inteiro: ")
+    leia(num2)
+    calculadora()
+    
+fimalgoritmo
+
