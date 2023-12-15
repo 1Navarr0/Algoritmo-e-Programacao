@@ -1,0 +1,19 @@
+algoritmo "05 - Repetição"
+
+var
+    num : inteiro
+    soma : inteiro
+
+inicio
+    soma <- 0
+    repita
+        escreval("Informe um número(Negativo p/ cancelar): ")
+        leia(num)
+        se num < 0 entao
+            interrompa
+        fimse
+        soma <- soma + num
+    ate num < 0
+    escreva(soma)
+fimalgoritmo
+        
