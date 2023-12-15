@@ -1,0 +1,41 @@
+algoritmo "semnome"
+
+var
+
+mat: vetor[1..15,1..10] de inteiro
+l, c : inteiro
+vazio, inteira, meia, total : inteiro
+
+inicio
+
+para l de 1 ate 15 faca
+    para c de 1 ate 10 faca
+        mat[l,c] <- randi(3)
+        se mat[l,c] = 0 entao
+            vazio <- vazio + 1
+        senao
+            se mat[l,c] = 1 entao
+                inteira <- inteira + 1
+            senao
+                se mat[l,c] = 2 entao
+                    meia <- meia + 1
+                fimse
+            fimse
+        fimse
+    fimpara
+fimpara
+
+para l de 1 ate 15 faca
+     escreval("")
+    para c de 1 ate 10 faca
+        escreva(mat[l,c], " ")
+    fimpara
+fimpara
+escreval("")
+escreval("Poltrona vazias: ", vazio)
+escreval("Poltronas pagantes inteiro: ", inteiro)
+escreval("Poltronas pagantes meia: ", meia)
+total <- (inteira * 12) + (meia * 6)
+escreval("O valor apurado foi de: ", total, " R$")
+
+fimalgoritmo
