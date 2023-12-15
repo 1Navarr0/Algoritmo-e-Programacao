@@ -1,0 +1,35 @@
+algoritmo "semnome"
+
+var
+
+   mat: vetor[1..10,1..10] de inteiro
+   l, c : inteiro
+
+inicio
+
+   para l de 1 ate 10 faca
+      para c de 1 ate 10 faca
+         se l < c entao
+            mat[l,c] <- 2 * l + 8
+         senao
+            se l = c entao
+               mat[l,c] <- 7 * l - 2 * c + l
+            senao
+               se l > c entao
+                  mat[l,c] <- (4 * l) * (5 * c) + 9
+               fimse
+            fimse
+         fimse
+      fimpara
+   fimpara
+
+   para l de 1 ate 10 faca
+      escreval("")
+      para c de 1 ate 10 faca
+         escreva(mat[l,c])
+      fimpara
+   fimpara
+
+fimalgoritmo
+
+
