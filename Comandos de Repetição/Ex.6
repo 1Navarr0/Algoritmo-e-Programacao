@@ -1,0 +1,22 @@
+algoritmo "06 - Repetição"
+
+var
+    num : inteiro
+    soma : inteiro
+    i : inteiro
+
+inicio
+    soma <- 0
+    para i de 1 ate 5 faca
+        escreval("Informe um número inteiro: ")
+        leia(num)
+        soma <- soma + num
+    fimpara
+
+    se soma % 2 = 0 entao
+        escreval("A soma desses é:", soma, " e é par")
+    senao
+        escreval("A soma desses é:", soma, " e é ímpar")
+    fimse
+fimalgoritmo
+        
