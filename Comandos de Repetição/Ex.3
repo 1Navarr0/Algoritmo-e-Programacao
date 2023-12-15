@@ -1,0 +1,24 @@
+algoritmo "03 - Repetição"
+
+var
+    num1, num2 : inteiro
+    contador : inteiro
+
+inicio
+    escreval("Informe um número: ")
+    leia(num1)
+    escreval("Informe outro número: ")
+    leia(num2)
+    contador <- num1
+    para contador de num1 ate num2 passo 2 faca
+        se (num1 % 2) = 0 entao
+            escreval(contador)
+            contador <- contador + 2
+        senao
+            contador <- contador + 1
+            escreval(contador)
+            contador <- contador + 2
+        fimse
+    fimpara
+    
+fimalgoritmo
