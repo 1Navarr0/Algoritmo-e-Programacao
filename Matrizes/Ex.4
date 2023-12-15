@@ -1,0 +1,22 @@
+algoritmo "semnome"
+
+var
+
+mat: vetor[1..4,1..6] de inteiro
+l, c : inteiro
+soma : inteiro
+
+inicio
+soma <- 0
+para l de 1 ate 4 faca
+    para c de 1 ate 6 faca
+        escreval("Informe a quantidade de pessoas no apartamento", l, c)
+        leia(mat[l,c])
+        soma <- soma + mat[l,c]
+    fimpara
+fimpara
+
+escreval("A quantidade total de moradores é: ", soma)
+
+
+fimalgoritmo
