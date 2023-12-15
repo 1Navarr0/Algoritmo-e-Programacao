@@ -1,0 +1,23 @@
+Sub-rotinas - Exercícios
+
+
+
+1) Crie um programa que lê um número do usuário, e utiliza um procedimento para verificar se o
+número encontra-se entre 0 e 10.
+
+2) Crie um programa que lê três números do usuário, e utiliza duas funções diferentes para
+determinar o maior e o menor número. Imprima o maior e menor valor na tela.
+
+3) Crie um programa que lê um número não-negativo (> 0) do usuário, e calcula a operação fatorial
+para aquele número.
+  a) Com estruturas de repetição (PARA, ENQUANTO...)
+  b) Com chamadas recursivas
+      - OBS: Fatorial de 5 -> 5! = 5 * 4 * 3 * ... * 2 * 1
+        
+4) Faça a implementação de uma calculadora no VisuAlg. Considere que o usuário deve informar a
+operação desejada e 2 números inteiros. Implemente os procedimentos e funções para:
+- Mostrar o menu (selecionar opção);
+- Somar;
+- Subtrair;
+- Multiplicar;
+- Dividir.
