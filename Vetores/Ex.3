@@ -1,0 +1,25 @@
+algoritmo "semnome"
+
+var
+
+vet1, vet2 : vetor [1..20] de inteiro
+indice : inteiro
+
+inicio
+
+para indice de 1 ate 20 faca
+    escreval("Informe um número: ")
+    leia(vet1[indice])
+    se vet1[indice] <= 0 entao
+        vet2[indice] <- 1
+    fimse
+fimpara
+escreval("Vetor 1: ")
+para indice de 1 ate 20 faca
+    escreval(vet1[indice])
+fimpara
+escreval("Vetor 2: ")
+para indice de 1 ate 20 faca
+    escreval(vet2[indice])
+fimpara
+fimalgoritmo
