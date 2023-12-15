@@ -1,0 +1,29 @@
+Algoritmo "05 - Decisão"
+
+var
+
+    nota1, nota2, nota3, nota4 : real
+    media : real
+    situacao : caractere
+
+inicio
+
+    escreval("Informe sua 1a nota: ")
+    leia(nota1)
+    escreval("Informe sua 2a nota: ")
+    leia(nota2)
+    escreval("Informe sua 3a nota: ")
+    leia(nota3)
+    escreval("Informe sua 4a nota ")
+    leia(nota4)
+
+    media <- (nota1 + nota2 + nota3 + nota4) / 4
+    
+    se media >= 6 entao
+        situacao <- "Aprovada"
+    senao
+        situacao <- "Reprovada"
+    fimse
+    escreval("A sua situação é: ", situacao)
+
+fimalgoritmo
